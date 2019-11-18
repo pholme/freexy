@@ -1,11 +1,11 @@
 This is the C code used in "The Free and Freer XY model" by Petter Holme and Yerali Gandica. It is an Excange Monte Carlo algorithm using the Metropolis updating. To compile it, first create a directory o for the object files, create directories for the output, and then compile it. 
 
-`mkdir o`
-`mkdir out` for the free XY model
-`mkdir outer` for the freer XY model
-`mkdir out{,er}/{0,1,2,3,4,5,6,7,8,9}{0,1,2,3,4,5,6,7,8,9}` one for every temperature step
-`mkdir out/{0,1,2,3,4,5,6,7,8,9}{0,1,2,3,4,5,6,7,8,9}/{1.0,2.0,4.0,8.0}` one for every avg. degree
-`make`
+`mkdir o` 
+`mkdir out` for the free XY model 
+`mkdir outer` for the freer XY model 
+`mkdir out{,er}/{0,1,2,3,4,5,6,7,8,9}{0,1,2,3,4,5,6,7,8,9}` one for every temperature step 
+`mkdir out/{0,1,2,3,4,5,6,7,8,9}{0,1,2,3,4,5,6,7,8,9}/{1.0,2.0,4.0,8.0}` one for every avg. degree 
+`make` 
 
 The free XY model program takes three arguments: the number of spins, the average degree, a random seed. You can run the freer XY model program in the same way, but without the average degree. For example
 
