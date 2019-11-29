@@ -1,4 +1,4 @@
-This is the C code used in "The Free and Freer XY model" by Petter Holme and Yerali Gandica. It is an Excange Monte Carlo algorithm using the Metropolis updating. To compile it, first create a directory o for the object files, create directories for the output, and then compile it. 
+This is the C code used in "The Free and Freer XY model" by Petter Holme and Yerali Gandica. It is an Exchange Monte Carlo algorithm using the Metropolis updating. To compile it, first create a directory o for the object files, create directories for the output, and then compile it. 
 
 `mkdir o`  
 `mkdir out` for the free XY model  
